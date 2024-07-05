@@ -1,0 +1,135 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+label{
+    display:block;
+}
+.marque li{
+    margin-right: 20px;
+}
+.nav{
+    font-size: 18px;
+    /* background-color: #23403d; */
+}
+.nav li{
+    margin: 0px 10px;
+}
+
+.shop:hover{
+    .shop-hidden{
+        display: block;
+ 
+    }
+}
+.shop1:hover{
+    .shop-li{
+        display: block;
+    }
+}
+
+.shop-li{
+    float: right;
+}
+.shop2:hover{
+    .shop-li2{
+        display: block;
+    }
+}
+.shop-li2{
+    float: right;
+}
+.shop3:hover{
+    .shop-li3{
+        display: block;
+    }
+}
+.shop-li3{
+    float: right;
+
+}
+
+.home:hover{
+   
+    .home-li{
+        display: block;
+    /* background-color: aqua; */
+   
+    }
+}
+/* category */
+.category{
+    font-size: 19px;
+}
+
+/* hame banner */
+.homebanner{
+background-image: url('/homeBanner-left.jpeg');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+height: 45vh;
+/* opacity: .5; */
+
+
+}
+.homebanner2{
+    background-image: url('/homeBanner-right.jpeg');
+    background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+    height: 45vh;
+
+}
+.product-image{
+    background-image: url('/product-image.jpg');
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.product-li li{
+    list-style-type: circle;
+}
+.product-category{
+    height: 25vh;
+    font-weight: bold;
+    font-family: serif;
+}
+.new-offer{
+    font-size: 13px;
+}
+.product-slider{
+    height: 50vh;
+}
+FaStar{
+    color: rgb(245, 245, 0);
+}
+.privacy ul li{
+    list-style-type: disc;
+
+}
+.all-hover li{
+    transition: 1s;
+}
+.all-hover li:hover{
+    color: #ec6e55;
+    transform: scale(1.2);
+    transition: 1s;
+}
+.all-icon{
+    transition: 1s;
+}
+.all-icon:hover{
+    color: #ec6e55;
+    transform: scale(1.2);
+    transition: 1s;
+    
+}
+
+.all-hover li:hover{
+  .nav-icon{
+    color: white;
+  }
+}
