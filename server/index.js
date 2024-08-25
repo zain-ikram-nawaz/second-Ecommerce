@@ -283,7 +283,7 @@ try {
 })
 app.use("/", (req, res) => {
   console.log(process.env.SECRECT_KEY)
-  return res.status(200).send({ message: req.userData,message:"hi I am from server"}
+  return res.status(200).send({ message: req.userData,message:"hi I am Zain from server"}
     
   );
 });
